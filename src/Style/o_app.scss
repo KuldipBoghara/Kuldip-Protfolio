@@ -1,0 +1,114 @@
+@import './declaration.scss';
+
+.frame {
+  position: relative;
+  width: 1024px;
+  height: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #8f2929;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.column-left {
+  display: grid;
+  grid-template-rows: 256px 336px 336px 512px;
+  background-color: green;
+}
+
+.column-right {
+  background-color: blue;
+}
+
+.avtr {
+  @include grid(341px, 256px, 0px, 0px, rgb(24, 132, 192));
+}
+
+.contact {
+  @include grid(341px, 336px, 0px, 256px, rgb(24, 132, 192));
+}
+
+.skill {
+  @include grid(341px, 336px, 0px, 592px, rgb(24, 132, 192));
+}
+
+.extra {
+  @include grid(341px, 512px, 0px, 928px, #c4c4c4);
+}
+
+.name {
+  @include grid(683px, 128px, 341px, 0px, rgba(24, 132, 192, 0.75));
+}
+
+.about {
+  @include grid(683px, 192px, 341px, 128px, rgba(24, 132, 192, 0.5));
+}
+
+.experience {
+  @include grid(683px, 448px, 341px, 320px, rgba(24, 132, 192, 0.5));
+}
+
+.education {
+  @include grid(683px, 448px, 341px, 768px, rgba(24, 132, 192, 0.5));
+}
+
+//Grid with columns and differemt size row
+/* .frame {
+  position: relative;
+  width: 1024px;
+  height: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background: red;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 32px;
+  grid-template-areas:
+    'avtr name'
+    'avtr about'
+    'contact about'
+    'contact experience'
+    'skill experience'
+    'skill education'
+    'extra education';
+}
+
+.avtr {
+  @include area(avtr, 1, 9, #1884c0);
+}
+
+.name {
+  @include area(name, 1, 5, rgba(24, 132, 192, 0.75));
+}
+
+.contact {
+  @include area(contact, 9, 19, #1884c0);
+}
+
+.skill {
+  @include area(skill, 19, 30, #1884c0);
+}
+
+.extra {
+  @include area(extra, 30, 46, grey);
+}
+
+.about {
+  @include area(about, 5, 11, rgba(24, 132, 192, 0.5));
+}
+
+.experience {
+  @include area(experience, 11, 25, rgba(24, 132, 192, 0.5));
+}
+
+.education {
+  @include area(education, 25, 39, rgba(24, 132, 192, 0.5));
+}
+
+.last {
+  @include area(education, 39, 46, green);
+}
+ */

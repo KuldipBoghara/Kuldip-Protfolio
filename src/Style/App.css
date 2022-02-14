@@ -1,0 +1,44 @@
+.frame {
+  position: relative;
+  width: 650px;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 36, 129, 0.96)), color-stop(38.54%, rgba(0, 24, 153, 0.69)), color-stop(98.44%, rgba(53, 120, 0, 0.67)));
+  background: linear-gradient(180deg, rgba(0, 36, 129, 0.96) 0%, rgba(0, 24, 153, 0.69) 38.54%, rgba(53, 120, 0, 0.67) 98.44%);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+      grid-template-areas: 'left right';
+}
+
+.left {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: left;
+  width: 270px;
+  height: 830px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(196, 196, 196, 0.35)), to(rgba(196, 196, 196, 0.2625)));
+  background: linear-gradient(180deg, rgba(196, 196, 196, 0.35) 0%, rgba(196, 196, 196, 0.2625) 100%);
+  border-radius: 10px;
+}
+
+.right {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: right;
+  width: 330px;
+  height: 830px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: rgba(255, 255, 255, 0.99);
+  border-radius: 10px;
+}
+/*# sourceMappingURL=App.css.map */

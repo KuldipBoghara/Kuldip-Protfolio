@@ -1,13 +1,13 @@
 import React from 'react';
 
-import '../CSS/grid.css';
+import '../Style/App.css';
 
 const App = () => {
   return (
-    <diV id="frame">
-      <div id="avtr"> AVTR</div>
-      <div id="contact"> Contact</div>
-    </diV>
+    <div className="frame">
+      <div className="left"> Left</div>
+      <div className="right">Right</div>
+    </div>
   );
 };
 
