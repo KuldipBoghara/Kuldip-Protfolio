@@ -1,0 +1,29 @@
+import React from 'react';
+
+import '../Style/Name.css';
+
+const DisplayProfile = ({ socialIconsTwo }) => {
+  return (
+    <div className="avatar">
+      <div className="avatar-img">
+        <img
+          className="avatar-image"
+          src="/resources/avatar.png"
+          alt="avtr"
+          height={124}
+          width={110}
+        />
+      </div>
+      <div className="name-text"> KULDIP BOGHARA</div>
+      <div className="social-icons">
+        {socialIconsTwo.map((si, index) => (
+          <a key={index} href={si.link} target="_blank" rel="noreferrer">
+            <img className="icons" alt={index} src={si.image} />
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default DisplayProfile;
