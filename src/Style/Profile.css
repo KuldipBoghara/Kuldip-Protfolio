@@ -1,0 +1,57 @@
+/* @mixin grid($width, $height, $left, $top, $color) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: $top;
+  background: $color;
+}
+
+@mixin area($area, $start, $end, $color) {
+  grid-area: $area;
+  grid-row-start: $start;
+  grid-row-end: $end;
+  background: $color;
+}
+ */
+.avatar {
+  position: relative;
+  width: 224px;
+  height: 223px;
+  margin: auto;
+  margin-top: 23px;
+}
+
+.name-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  width: 224px;
+  height: 23px;
+  top: 145px;
+}
+
+.avatar-image {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 57px;
+  border-radius: 50%;
+}
+
+.avatar-img {
+  margin-bottom: 21px;
+}
+
+.social-icons {
+  position: absolute;
+  top: 189px;
+  left: 71px;
+}
+
+.icons {
+  margin-right: 24px;
+}
+/*# sourceMappingURL=Profile.css.map */

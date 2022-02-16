@@ -1,8 +1,9 @@
 import React from 'react';
 
-import '../Style/Name.css';
+import '../Style/Profile.css';
 
 const DisplayProfile = ({ socialIconsTwo }) => {
+  //console.log(socialIconsTwo);
   return (
     <div className="avatar">
       <div className="avatar-img">

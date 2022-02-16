@@ -1,8 +1,33 @@
+@import './declaration.scss';
+
 .contact {
   position: relative;
   width: 260px;
   height: 160px;
-  top: 24px;
+  top: 22px;
   left: 5px;
   right: 5px;
+}
+
+.phone {
+  position: relative;
+  width: 260px;
+  height: 38px;
+  margin-bottom: 23px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+}
+
+.contact_detail {
+  @include font(15px, 400);
+  position: absolute;
+  color: white;
+  left: 75px;
+  top: 11px;
+}
+
+.contact_icons {
+  position: absolute;
+  top: 7px;
+  right: 213px;
 }

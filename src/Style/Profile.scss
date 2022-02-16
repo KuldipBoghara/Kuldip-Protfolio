@@ -1,19 +1,17 @@
+@import './declaration.scss';
+
 .avatar {
-  position: relative;
-  width: 224px;
-  height: 221px;
+  @include frame(relative, 224px, 223px);
+
   margin: auto;
   margin-top: 23px;
 }
 
 .name-text {
-  position: absolute;
-  width: 224px;
-  height: 23px;
+  @include font(24px, bold);
+  @include frame(absolute, 224px, 23px);
+
   top: 145px;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .avatar-image {
@@ -29,10 +27,10 @@
 
 .social-icons {
   position: absolute;
-  top: 183px;
-  left: 49px;
+  top: 189px;
+  left: 71px;
 }
 
 .icons {
-  margin-right: 18.8px;
+  margin-right: 24px;
 }

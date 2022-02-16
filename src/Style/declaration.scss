@@ -1,4 +1,4 @@
-@mixin grid($width, $height, $left, $top, $color) {
+/* @mixin grid($width, $height, $left, $top, $color) {
   position: absolute;
   width: $width;
   height: $height;
@@ -12,4 +12,17 @@
   grid-row-start: $start;
   grid-row-end: $end;
   background: $color;
+}
+ */
+
+@mixin font($size, $weight) {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin frame($position, $width, $height) {
+  position: $position;
+  width: $width;
+  height: $height;
 }

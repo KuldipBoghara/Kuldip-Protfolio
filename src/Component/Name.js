@@ -1,8 +1,8 @@
 import React from 'react';
 
-import '../Style/Name.css';
 import DisplayContact from './DisplayContact';
 import DisplayProfile from './DisplayProfile';
+import DisplaySkill from './DisplaySkill';
 
 const Name = () => {
   const git = '/resources/git.png';
@@ -15,19 +15,29 @@ const Name = () => {
     }
   ];
 
-  const phone = '/resorces/phone.png';
-  const email = '/resources/email.png';
-  const location = '/resources/location.png';
+  const phone = 'resources/phone.svg';
+  const email = '/resources/email.svg';
+  const location = '/resources/location.svg';
   const contactInfo = [
-    { phone, contact_number: '+1 (437)984-8398' },
-    { email, email_address: 'bogharakuldip@gmail.com' },
-    { location, address: 'Toronto, Canada' }
+    { image: phone, detail: '+1 (437)984-8398' },
+    { image: email, detail: 'bogharakuldip@gmail.com' },
+    { image: location, detail: 'Toronto, Canada' }
+  ];
+
+  const skills = [
+    { name: 'Java Script', value: 110 },
+    { name: 'React', value: 110 },
+    { name: 'HTML & CSS', value: 105 },
+    { name: 'JAVA', value: 100 },
+    { name: 'SQL', value: 80 },
+    { name: 'Graphic Design', value: 60 }
   ];
 
   return (
     <div>
       <DisplayProfile socialIconsTwo={socialIconsTwo} />
       <DisplayContact contactInfo={contactInfo} />
+      <DisplaySkill skills={skills} />
     </div>
   );
 };

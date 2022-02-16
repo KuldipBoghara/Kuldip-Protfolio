@@ -14,37 +14,45 @@
   background: $color;
 }
  */
-.contact {
+.skill {
   position: relative;
   width: 260px;
-  height: 160px;
-  top: 22px;
+  height: 216px;
+  top: 46px;
   left: 5px;
-  right: 5px;
-}
-
-.phone {
-  position: relative;
-  width: 260px;
-  height: 38px;
-  margin-bottom: 23px;
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
 }
 
-.contact_detail {
+.title {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: bold;
   position: absolute;
-  color: white;
-  left: 75px;
-  top: 11px;
+  top: 8px;
+  left: 12px;
 }
 
-.contact_icons {
+.skill-list {
   position: absolute;
-  top: 7px;
-  right: 213px;
+  top: 35px;
+  left: 12px;
 }
-/*# sourceMappingURL=Contact.css.map */
+
+.skill-name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 9px;
+  margin-right: 0%;
+}
+
+.main-block {
+  width: 120px;
+  height: 9px;
+  margin-right: 4px;
+  background: black;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=skill.css.map */
