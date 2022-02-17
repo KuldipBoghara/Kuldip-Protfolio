@@ -10,7 +10,12 @@ const DisplaySkill = ({ skills }) => {
         {skills.map((skill, index) => (
           <div key={index} className="skill-name">
             {skill.name}
-            <div className="main-block"></div>
+            <div key={index} className="main-block">
+              <div
+                className="second-block"
+                style={{ width: skill.value }}
+              ></div>
+            </div>
           </div>
         ))}
       </div>

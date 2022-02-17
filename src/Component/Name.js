@@ -1,12 +1,13 @@
 import React from 'react';
 
 import DisplayContact from './DisplayContact';
+import DisplayHobbies from './DisplayHobbies';
 import DisplayProfile from './DisplayProfile';
 import DisplaySkill from './DisplaySkill';
 
 const Name = () => {
-  const git = '/resources/git.png';
-  const linkedin = '/resources/linkedin.png';
+  const git = '/resources/git.svg';
+  const linkedin = '/resources/Linkedin.svg';
   const socialIconsTwo = [
     { image: git, link: 'https://github.com/Mr-BK' },
     {
@@ -33,11 +34,24 @@ const Name = () => {
     { name: 'Graphic Design', value: 60 }
   ];
 
+  const music = '/resources/Music.svg';
+  const travel = '/resources/Travel.svg';
+  const cricket = '/resources/Cricket.svg';
+  const chess = '/resources/Chess.svg';
+
+  const hobbies = [
+    { image: music, text: 'Music' },
+    { image: travel, text: 'Travel' },
+    { image: cricket, text: 'Cricket' },
+    { image: chess, text: 'Chess' }
+  ];
+
   return (
     <div>
       <DisplayProfile socialIconsTwo={socialIconsTwo} />
       <DisplayContact contactInfo={contactInfo} />
       <DisplaySkill skills={skills} />
+      <DisplayHobbies hobbies={hobbies} />
     </div>
   );
 };

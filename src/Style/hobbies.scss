@@ -1,0 +1,45 @@
+@import './declaration.scss';
+
+.hobbies {
+  @include frame(relative, 254px, 111px);
+
+  top: 70px;
+  left: 5px;
+}
+
+.hobbies-title-block {
+  @include frame(absolute, 90px, 20px);
+
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+}
+
+.hobbies-title {
+  @include font(18px, 700);
+  height: 17px;
+  width: 66px;
+  margin-left: 12px;
+  display: center;
+}
+
+.h-list {
+  position: absolute;
+  left: 11px;
+  top: 40px;
+}
+
+.hobbie-box {
+  //position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 60px;
+  margin-right: 26px;
+}
+
+.hobbie-box:last-child {
+  margin-right: 0px;
+}
+
+.hobbie-text {
+  height: 10px;
+}

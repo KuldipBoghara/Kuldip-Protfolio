@@ -18,8 +18,14 @@ const DisplayProfile = ({ socialIconsTwo }) => {
       <div className="name-text"> KULDIP BOGHARA</div>
       <div className="social-icons">
         {socialIconsTwo.map((si, index) => (
-          <a key={index} href={si.link} target="_blank" rel="noreferrer">
-            <img className="icons" alt={index} src={si.image} />
+          <a
+            className="icons"
+            key={index}
+            href={si.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img alt={index} src={si.image} />
           </a>
         ))}
       </div>

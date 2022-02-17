@@ -12,6 +12,8 @@
 .title {
   @include font(18px, bold);
   position: absolute;
+  width: 143px;
+  height: 17px;
   top: 8px;
   left: 12px;
 }
@@ -23,16 +25,30 @@
 }
 
 .skill-name {
-  @include font(18px, 400);
+  @include font(18px, 200);
+
+  width: 244px;
+  height: 18px;
   color: white;
   margin-bottom: 9px;
-  margin-right: 0%;
+}
+
+.skill-name:last-child {
+  margin-bottom: 0px;
 }
 
 .main-block {
+  float: right;
+  margin-top: 7px;
+  padding: 0px;
   width: 120px;
   height: 9px;
-  margin-right: 4px;
   background: black;
+  border-radius: 5px;
+}
+
+.second-block {
+  background: #c4c4c4;
+  height: 9px;
   border-radius: 5px;
 }

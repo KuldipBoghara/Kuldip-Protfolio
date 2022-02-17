@@ -47,11 +47,17 @@
 
 .social-icons {
   position: absolute;
+  width: 82px;
+  height: 34px;
   top: 189px;
   left: 71px;
 }
 
 .icons {
   margin-right: 24px;
+}
+
+.icons:last-child {
+  margin-right: 0px;
 }
 /*# sourceMappingURL=Profile.css.map */

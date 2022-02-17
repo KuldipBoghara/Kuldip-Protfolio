@@ -1,3 +1,19 @@
+/* @mixin grid($width, $height, $left, $top, $color) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: $top;
+  background: $color;
+}
+
+@mixin area($area, $start, $end, $color) {
+  grid-area: $area;
+  grid-row-start: $start;
+  grid-row-end: $end;
+  background: $color;
+}
+ */
 .frame {
   position: relative;
   width: 650px;

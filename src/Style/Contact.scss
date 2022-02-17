@@ -18,6 +18,10 @@
   border-radius: 10px;
 }
 
+.phone:last-child {
+  margin-bottom: 0px;
+}
+
 .contact_detail {
   @include font(15px, 400);
   position: absolute;
