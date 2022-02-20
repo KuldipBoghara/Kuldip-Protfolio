@@ -1,0 +1,41 @@
+@import '../Style/declaration.scss';
+
+.experience {
+  @include frame(relative, 320px, 290px);
+  top: 33px;
+  left: 10px;
+}
+
+.experience-list-wrapper {
+  //position: absolute;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.experience-title {
+  @include font(18px, bold);
+  height: 17px;
+}
+
+.experience-company {
+  @include font(12px, 400);
+  font-style: italic;
+  height: 18px;
+  margin-top: 9px;
+}
+
+.experience-responsibilty {
+  @include font(12px, 400);
+  margin-top: 8px;
+  text-align: justify;
+}
+
+ul {
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.experience-period {
+  @include font(12px, 400);
+  float: right;
+}

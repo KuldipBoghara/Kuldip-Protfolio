@@ -1,0 +1,28 @@
+@import './declaration.scss';
+
+.head {
+  @include frame(relative, 320px, 24px);
+  //display: inline-block;
+}
+
+.head-block {
+  @include frame(absolute, 150px, 24px);
+  background: black;
+  border-radius: 5px;
+}
+
+.head-text {
+  @include font(15px, 700);
+  color: white;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.head-line {
+  float: right;
+  width: 170px;
+  height: 0px;
+  margin-top: 12px;
+  background: black;
+  border: 1px solid black;
+}

@@ -1,0 +1,48 @@
+/* @mixin grid($width, $height, $left, $top, $color) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: $top;
+  background: $color;
+}
+
+@mixin area($area, $start, $end, $color) {
+  grid-area: $area;
+  grid-row-start: $start;
+  grid-row-end: $end;
+  background: $color;
+}
+ */
+.head {
+  position: relative;
+  width: 320px;
+  height: 24px;
+}
+
+.head-block {
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  background: black;
+  border-radius: 5px;
+}
+
+.head-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.head-line {
+  float: right;
+  width: 170px;
+  height: 0px;
+  margin-top: 12px;
+  background: black;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=HeadDesign.css.map */

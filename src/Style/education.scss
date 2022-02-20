@@ -1,0 +1,34 @@
+@import './declaration.scss';
+
+.education {
+  @include frame(relative, 320px, 200px);
+  top: 70px;
+  left: 10px;
+}
+
+.education-wrapper {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.education-title {
+  @include font(15px, bold);
+  height: 18px;
+}
+
+.education-degree {
+  @include font(15px, bold);
+  height: 15px;
+  margin-top: 8px;
+}
+
+.education-duration {
+  @include font(12px, 400);
+  float: right;
+}
+
+.education-college {
+  @include font(15px, 400);
+  font-style: italic;
+  margin-top: 8px;
+}

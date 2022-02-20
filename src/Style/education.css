@@ -1,0 +1,59 @@
+/* @mixin grid($width, $height, $left, $top, $color) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: $top;
+  background: $color;
+}
+
+@mixin area($area, $start, $end, $color) {
+  grid-area: $area;
+  grid-row-start: $start;
+  grid-row-end: $end;
+  background: $color;
+}
+ */
+.education {
+  position: relative;
+  width: 320px;
+  height: 200px;
+  top: 70px;
+  left: 10px;
+}
+
+.education-wrapper {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.education-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  height: 18px;
+}
+
+.education-degree {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  height: 15px;
+  margin-top: 8px;
+}
+
+.education-duration {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: 400;
+  float: right;
+}
+
+.education-college {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 8px;
+}
+/*# sourceMappingURL=education.css.map */

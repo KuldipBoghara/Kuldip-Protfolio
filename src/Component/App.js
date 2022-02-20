@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../Style/App.css';
 import Name from './Name';
+import RightPanel from './RightPanel';
 
 const App = () => {
   return (
@@ -9,7 +10,9 @@ const App = () => {
       <div className="left">
         <Name />
       </div>
-      <div className="right">Right</div>
+      <div className="right">
+        <RightPanel />
+      </div>
     </div>
   );
 };

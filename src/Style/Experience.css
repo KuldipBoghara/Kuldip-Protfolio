@@ -1,0 +1,65 @@
+/* @mixin grid($width, $height, $left, $top, $color) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  left: $left;
+  top: $top;
+  background: $color;
+}
+
+@mixin area($area, $start, $end, $color) {
+  grid-area: $area;
+  grid-row-start: $start;
+  grid-row-end: $end;
+  background: $color;
+}
+ */
+.experience {
+  position: relative;
+  width: 320px;
+  height: 290px;
+  top: 33px;
+  left: 10px;
+}
+
+.experience-list-wrapper {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.experience-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  height: 17px;
+}
+
+.experience-company {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  height: 18px;
+  margin-top: 9px;
+}
+
+.experience-responsibilty {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 8px;
+  text-align: justify;
+}
+
+ul {
+  padding-left: 10px;
+  margin: 0px;
+}
+
+.experience-period {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: 400;
+  float: right;
+}
+/*# sourceMappingURL=Experience.css.map */

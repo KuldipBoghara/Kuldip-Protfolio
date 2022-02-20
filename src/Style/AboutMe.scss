@@ -1,0 +1,18 @@
+@import './declaration.scss';
+
+.about-me {
+  @include frame(relative, 320px, 190px);
+  top: 12px;
+  left: 10px;
+}
+
+.about-me-text-block {
+  @include frame(absolute, 320px, 140px);
+  margin-top: 20px;
+}
+
+.about-me-text {
+  @include font(14px, 400);
+  margin: 0px;
+  text-indent: 30px;
+}
