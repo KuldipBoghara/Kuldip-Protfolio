@@ -16,10 +16,13 @@
  */
 .about-me {
   position: relative;
-  width: 320px;
+  width: 330px;
   height: 190px;
-  top: 12px;
-  left: 10px;
+  top: 22px;
+  background: white;
+  -webkit-box-shadow: 5px 5px 5px 5px #262727;
+          box-shadow: 5px 5px 5px 5px #262727;
+  border-radius: 10px;
 }
 
 .about-me-text-block {
@@ -27,6 +30,7 @@
   width: 320px;
   height: 140px;
   margin-top: 20px;
+  margin-left: 10px;
 }
 
 .about-me-text {
@@ -34,6 +38,8 @@
   font-size: 14px;
   font-weight: 400;
   margin: 0px;
+  margin-right: 10px;
   text-indent: 30px;
+  text-align: justify;
 }
 /*# sourceMappingURL=AboutMe.css.map */

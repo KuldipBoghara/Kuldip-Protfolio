@@ -16,15 +16,19 @@
  */
 .experience {
   position: relative;
-  width: 320px;
-  height: 290px;
-  top: 33px;
-  left: 10px;
+  width: 330px;
+  height: 300px;
+  top: 58px;
+  background: white;
+  -webkit-box-shadow: 5px 5px 5px 5px #262727;
+          box-shadow: 5px 5px 5px 5px #262727;
+  border-radius: 10px;
 }
 
 .experience-list-wrapper {
   margin-top: 25px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .experience-title {

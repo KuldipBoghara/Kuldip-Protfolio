@@ -27,11 +27,11 @@
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(196, 196, 196, 0.35) 0%,
     rgba(196, 196, 196, 0.2625) 100%
-  );
+  ); */
   border-radius: 10px;
 }
 
@@ -42,6 +42,26 @@
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  background: white;
+  //background: rgba(255, 255, 255, 0.35);
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .frame {
+    width: 350px;
+    height: 1700px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      'left'
+      'right';
+  }
+
+  .left {
+    margin: auto;
+  }
+
+  .right {
+    margin: auto;
+  }
 }

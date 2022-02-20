@@ -16,15 +16,19 @@
  */
 .education {
   position: relative;
-  width: 320px;
-  height: 200px;
-  top: 70px;
-  left: 10px;
+  width: 330px;
+  height: 220px;
+  top: 98px;
+  background: white;
+  -webkit-box-shadow: 5px 5px 5px 5px #262727;
+          box-shadow: 5px 5px 5px 5px #262727;
+  border-radius: 10px;
 }
 
 .education-wrapper {
   margin-top: 25px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .education-title {

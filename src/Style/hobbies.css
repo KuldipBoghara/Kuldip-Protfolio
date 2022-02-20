@@ -17,15 +17,21 @@
 .hobbies {
   position: relative;
   width: 254px;
-  height: 111px;
+  height: 115px;
   top: 70px;
   left: 5px;
+  -webkit-box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.5);
+          box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.5);
+  background: rgba(196, 196, 196, 0.2);
+  border-radius: 10px;
 }
 
 .hobbies-title-block {
   position: absolute;
   width: 90px;
   height: 20px;
+  top: 2px;
+  left: 5px;
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
 }

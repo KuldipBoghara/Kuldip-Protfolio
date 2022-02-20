@@ -1,14 +1,17 @@
 @import './declaration.scss';
 
 .education {
-  @include frame(relative, 320px, 200px);
-  top: 70px;
-  left: 10px;
+  @include frame(relative, 330px, 220px);
+  top: 98px;
+  background: white;
+  box-shadow: 5px 5px 5px 5px rgb(38, 39, 39);
+  border-radius: 10px;
 }
 
 .education-wrapper {
   margin-top: 25px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .education-title {

@@ -1,12 +1,15 @@
 @import './declaration.scss';
 
 .head {
-  @include frame(relative, 320px, 24px);
+  @include frame(relative, 330px, 24px);
+
   //display: inline-block;
 }
 
 .head-block {
   @include frame(absolute, 150px, 24px);
+  margin-top: 2px;
+  margin-left: 5px;
   background: black;
   border-radius: 5px;
 }
@@ -20,9 +23,9 @@
 
 .head-line {
   float: right;
-  width: 170px;
+  width: 173px;
   height: 0px;
-  margin-top: 12px;
+  margin-top: 14px;
   background: black;
   border: 1px solid black;
 }

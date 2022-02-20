@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import '../Style/skill.css';
 
 const DisplaySkill = ({ skills }) => {
+  useEffect(() => {}, []);
+
   return (
     <div className="skill">
       <div className="title">Professional Skill</div>

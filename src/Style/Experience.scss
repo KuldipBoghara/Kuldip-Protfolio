@@ -1,15 +1,18 @@
 @import '../Style/declaration.scss';
 
 .experience {
-  @include frame(relative, 320px, 290px);
-  top: 33px;
-  left: 10px;
+  @include frame(relative, 330px, 300px);
+  top: 58px;
+  background: white;
+  box-shadow: 5px 5px 5px 5px rgb(38, 39, 39);
+  border-radius: 10px;
 }
 
 .experience-list-wrapper {
   //position: absolute;
   margin-top: 25px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .experience-title {
