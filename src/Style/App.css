@@ -14,6 +14,14 @@
   background: $color;
 }
  */
+body {
+  background-image: url(/public/resources/background.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .frame {
   position: relative;
   width: 650px;
@@ -22,6 +30,7 @@
   margin-right: auto;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 36, 129, 0.96)), color-stop(38.54%, rgba(0, 24, 153, 0.69)), color-stop(98.44%, rgba(53, 120, 0, 0.67)));
   background: linear-gradient(180deg, rgba(0, 36, 129, 0.96) 0%, rgba(0, 24, 153, 0.69) 38.54%, rgba(53, 120, 0, 0.67) 98.44%);
+  border-radius: 10px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto;

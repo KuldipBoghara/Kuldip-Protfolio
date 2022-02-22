@@ -6,12 +6,14 @@ import RightPanel from './RightPanel';
 
 const App = () => {
   return (
-    <div className="frame">
-      <div className="left">
-        <Name />
-      </div>
-      <div className="right">
-        <RightPanel />
+    <div className="background">
+      <div className="frame">
+        <div className="left">
+          <Name />
+        </div>
+        <div className="right">
+          <RightPanel />
+        </div>
       </div>
     </div>
   );

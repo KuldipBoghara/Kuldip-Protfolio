@@ -1,5 +1,13 @@
 @import './declaration.scss';
 
+body {
+  background-image: url(/public/resources/background.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .frame {
   position: relative;
   width: 650px;
@@ -12,11 +20,11 @@
     rgba(0, 24, 153, 0.69) 38.54%,
     rgba(53, 120, 0, 0.67) 98.44%
   );
+  border-radius: 10px;
 
   display: grid;
   grid-template-columns: auto;
   column-gap: 10px;
-  // grid-template-rows: 830px;
   grid-template-areas: 'left right';
 }
 
