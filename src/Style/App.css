@@ -14,14 +14,13 @@
   background: $color;
 }
  */
-body {
+/* body {
   background-image: url(/public/resources/background.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-
+} */
 .frame {
   position: relative;
   width: 650px;
@@ -35,8 +34,8 @@ body {
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
-  -webkit-column-gap: 10px;
-          column-gap: 10px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
       grid-template-areas: 'left right';
 }
 

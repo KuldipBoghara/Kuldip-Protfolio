@@ -1,12 +1,12 @@
 @import './declaration.scss';
 
-body {
+/* body {
   background-image: url(/public/resources/background.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
+} */
 
 .frame {
   position: relative;
@@ -24,7 +24,7 @@ body {
 
   display: grid;
   grid-template-columns: auto;
-  column-gap: 10px;
+  column-gap: 20px;
   grid-template-areas: 'left right';
 }
 
