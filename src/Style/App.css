@@ -1,26 +1,3 @@
-/* @mixin grid($width, $height, $left, $top, $color) {
-  position: absolute;
-  width: $width;
-  height: $height;
-  left: $left;
-  top: $top;
-  background: $color;
-}
-
-@mixin area($area, $start, $end, $color) {
-  grid-area: $area;
-  grid-row-start: $start;
-  grid-row-end: $end;
-  background: $color;
-}
- */
-/* body {
-  background-image: url(/public/resources/background.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-} */
 .frame {
   position: relative;
   width: 650px;
