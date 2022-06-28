@@ -7,21 +7,21 @@ import Experience from './Experience';
 const RightPanel = () => {
   const experiences = [
     {
-      position: 'Intern',
-      period: 'Dec 2018 - Apr 2019',
-      company_name: 'BISAG, India',
+      position: 'SOFTWARE DEVELOPER',
+      period: 'June 2021 - Present',
+      company_name: 'ECI Technology, Canada',
       responsibilities: [
-        'Combined remotely collected and satellite data to generate unified geographic mapping information.',
-        'Planned website development by converting collected into usable web presence with HTML, JavaScript, and CSS.'
+        'Developing and maintain the software required to test and program different manufacturing units',
+        'Working on the NLU engine in cloud to reduce the latency of request and response in the client server architecture.'
       ]
     },
     {
-      position: 'Production Assistance',
-      period: 'Jun 2021 - present',
-      company_name: 'ECI Tecchnolgy, Toronto',
+      position: 'FULL-STACK DEVELOPER',
+      period: 'Dec 2018 - Dec 2019',
+      company_name: 'AWADH Techsol LLP, India',
       responsibilities: [
-        'Assisting the production team.',
-        'Ensure the quality standards are maintained all throughout the production.'
+        'Developed a website by converting mockups of satellite data into user friendly web presentation. Using the technology like PostgreSQL and Geo-Server with JS, CSS and MySQL',
+        'Experience with developing SPA and RWD'
       ]
     }
   ];

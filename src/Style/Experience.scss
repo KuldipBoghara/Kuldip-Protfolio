@@ -1,8 +1,8 @@
 @import '../Style/declaration.scss';
 
 .experience {
-  @include frame(relative, 330px, 300px);
-  top: 58px;
+  @include frame(relative, 330px, 315px);
+  top: 53px;
   background: white;
   box-shadow: 5px 5px 5px 5px rgb(38, 39, 39);
   border-radius: 10px;

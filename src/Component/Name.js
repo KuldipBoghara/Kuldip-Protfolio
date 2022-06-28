@@ -9,10 +9,10 @@ const Name = () => {
   const git = '/resources/git.svg';
   const linkedin = '/resources/Linkedin.svg';
   const socialIconsTwo = [
-    { image: git, link: 'https://github.com/Mr-BK' },
+    { image: git, link: 'https://github.com/KuldipBoghara' },
     {
       image: linkedin,
-      link: 'https://www.linkedin.com/in/kuldip-boghara-5abbb6109/'
+      link: 'https://www.linkedin.com/in/kuldip-boghara/'
     }
   ];
 
@@ -28,10 +28,10 @@ const Name = () => {
   const skills = [
     { name: 'Java Script', value: 110 },
     { name: 'React', value: 110 },
+    { name: 'JAVA', value: 105 },
     { name: 'HTML & CSS', value: 105 },
-    { name: 'JAVA', value: 100 },
-    { name: 'SQL', value: 80 },
-    { name: 'Graphic Design', value: 60 }
+    { name: 'SQL & NoSQL', value: 80 },
+    { name: 'Firebase', value: 70 }
   ];
 
   const music = '/resources/Music.svg';
