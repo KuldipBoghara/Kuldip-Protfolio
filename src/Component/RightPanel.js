@@ -7,12 +7,11 @@ import Experience from './Experience';
 const RightPanel = () => {
   const experiences = [
     {
-      position: 'SOFTWARE DEVELOPER',
+      position: 'FRONTEND DEVELOPER',
       period: 'June 2021 - Present',
-      company_name: 'ECI Technology, Canada',
+      company_name: 'HARSH INFOTECH, Canada',
       responsibilities: [
-        'Developing and maintain the software required to test and program different manufacturing units',
-        'Working on the NLU engine in cloud to reduce the latency of request and response in the client server architecture.'
+        'I have worked on a web application for an employment agency that provides functionality Where employee can register, view pay stub, request for ROE and, Request for T4'
       ]
     },
     {
